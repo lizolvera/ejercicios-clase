@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con controles clásicos</title>
+</head>
+<html>
+    <body>
+
+        <b>FORMULARIO CON CONTROLES CLÁSICOS</b>
+        <form action=""method="post";>
+            <fieldset>
+
+                <legend>Botones</legend>
+                <label for="">Campo de texto:</label>
+                    <input type="text" name="" id="">
+    
+                    
+                    <label for="">Area de texto:</label>
+                    <textarea id="txtar_ejemplo" rows="4" cols="60"> Puede colocar un texto Multimedia</textarea>
+                   <br>
+                    <label for="">Campo para Contraseña:</label>
+                    <input type="password" id="psw_ejemplo" value="contraseña">
+            </fieldset>
+        
+            <fieldset>
+                <legend>Controles de seleccion</legend>
+                <label for="">Lista de seleccin (tipo combo) </label>
+                <select name="Mascota2" size="2" >
+                    <option>Perro</option>
+                    <option>Gato</option>
+                    <option>Roedor</option>
+                </select>
+                <label for="">Lista de seleccion simple </label>
+                <select name="Mascota3"size="3" multiple> 
+                    <option>Perro</option>
+                    <option>Gato</option>
+                    <option>Roedor</option>
+                </select>
+                 <br>
+               
+                 <label for="">Lista de control de radio</label>
+                 <input type="radio" id="perro" name="tipo_mascota" value="1">
+                 <label for="perro">Perro</label>
+                 <input type="radio" id="Gato" name="tipo_mascota" value="2">
+                 <label for="Gato">Gato</label>
+                 <input type="radio" id="roedor" name="tipo_mascota" value="3">
+                 <label for="roedor">roedor</label>
+                 <br>
+                 <label for="">Lista de cajas(checkbox)</label>
+                 <input type="checkbox" id="chico" name="tam_chico" value="1">
+                 <label for="chico">Chico</label>
+                 <input type="checkbox" id="mediano" name="tam_mediano" value="2">
+                 <label for="Mediano">Mediano</label>
+                 <input type="checkbox" id="Gande" name="tam_Grande" value="3">
+                 <label for="Grande">Grande</label>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+         <legend>botones</legend>
+         <input type="submit" id="Enviar" value="enviar informacion"/>
+         <input type="reset" id="Borrar" value="Borrar infromacion"/>
+         <input type="button" id="boton" value="boton"/>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Otros</legend>
+                <label for="">Imagen: </label>
+                <input type="text" name="" id="Puedo colocar texto">
+                <input type="hidden" id="oculto" value="borrar informacion">
+            </fieldset>
+        </form>
+        </form>
+    </body>
+
+</html>

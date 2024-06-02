@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo usando SCRIP</title>
+
+    <script>
+        function Saludo(){
+            document.getElementById("Saludo").innerHTML="Buennos Dias";
+
+        }
+    </script>
+</head>
+<body>
+    <h1>Ejemplo de scrip </h1>
+    <p class="mensaje" id="mensaje"></p>
+    <p class="mensaje" id="Saludo"></p>
+    <p class="mensaje" id="nombre"></p>
+
+    <script>
+     document.getElementById("mensaje").innerHTML ="Hola Mundo!!!"
+    </script>
+
+<input type="button" value="click Aqui" onclick="Saludo()">
+<input type="button" onclick="document.getElementById('nombre').innerHTML='Lizbet'" value="clic Aqui">
+
+
+</body>
+   
+</html>
